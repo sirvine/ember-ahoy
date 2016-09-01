@@ -13,7 +13,7 @@
   },
   "repository": "https://github.com/dukex/ember-ahoy",
   "engines": {
-    "node": ">= 5.0.0"
+    "node": ">= 0.12.0"
   },
   "author": "Duke <srdukex@gmail.com>",
   "license": "MIT",
