@@ -7,7 +7,11 @@ module.exports = {
   },
   contentFor: function(target, config) {
     if (target === 'head') {
-      return `<script>window.ahoy = {};\nwindow.ahoy.visitsUrl = '${config.ahoy.visitsUrl}';\nwindow.ahoy.eventsUrl = '${config.ahoy.eventsUrl}';</script>`;
+      return `<script>
+                window.ahoy = {};
+                window.ahoy.visitsUrl = '${config.ahoy.visitsUrl}';
+                window.ahoy.eventsUrl = '${config.ahoy.eventsUrl}';
+              </script>`;
     }
   }
 };
